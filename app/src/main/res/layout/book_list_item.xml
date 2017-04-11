@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ListItemMainLayout">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        style="@style/BookThumbnail"
+        tools:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        style="@style/ListItemTextContainer" >
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/BookTitle"
+            tools:text="Cats"/>
+
+        <TextView
+            android:id="@+id/author"
+            style="@style/BookOtherInfo"
+            tools:text="Paddy Cutts"/>
+
+        <TextView
+            android:id="@+id/publisherYear"
+            style="@style/BookOtherInfo"
+            tools:text="Thunder Bay Press (CA), 1998"/>
+
+    </LinearLayout>
+</LinearLayout>

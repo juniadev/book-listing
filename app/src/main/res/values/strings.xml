@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Book Listing</string>
+    <string name="book_search">Enter book title or author</string>
+    <string name="no_books_found">No books found.</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="first_time">Enter a word or phrase to search for books!</string>
+</resources>
